@@ -78,6 +78,7 @@
                                 <th>Title</th>
                                 <th>ISBN no.</th>
                                 <th>Author</th>
+                                <th>Date</th>
                                 <th>Action</th>
                             </tr>
   
@@ -89,6 +90,7 @@
                             <tr>
                                 <td><?php echo $book['id']; ?></td>
                                 <td><?php echo $book['title']; ?></td>
+                                <td><?php echo $book['isbn_no']; ?></td>
                                 <td><?php echo $book['author']; ?></td>
                                 <td><?php echo $book['created_at']; ?></td>
                                 <td>
