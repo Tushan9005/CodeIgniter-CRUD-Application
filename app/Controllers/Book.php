@@ -42,7 +42,7 @@ class Book extends BaseController{
 
                 $session->setFlashdata('success','Record added successfully');
 
-                return redirect()->to('/books');
+                return redirect()->to('/');
             }
             else{
                 //Form not validated successfully
